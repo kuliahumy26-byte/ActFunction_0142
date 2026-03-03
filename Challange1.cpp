@@ -10,3 +10,10 @@ void first(){
 float luas(float jarijari,float phi){
     return phi * jarijari * jarijari;
 }
+void last(){
+    cout << "Hasil luas untuk lingkarang dengan jarijari" << var_jarijari << "adalah:" << luas(var_jarijari,var_phi);
+}
+int main (){ 
+  first();
+  last();
+} 
